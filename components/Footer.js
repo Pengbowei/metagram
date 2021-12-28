@@ -18,12 +18,12 @@ const Footer = () => {
             <FooterTitle>{item.title}</FooterTitle>
             <FooterItem>
               <StyledLink>
-                <Link href="/" passHref>
+                <Link href={`${item.path1}`} passHref>
                   <FooterLink>{item.item1}</FooterLink>
                 </Link>
               </StyledLink>
               <StyledLink>
-                <Link href="/" passHref>
+                <Link href={`${item.path2}`} passHref>
                   <FooterLink>{item.item2}</FooterLink>
                 </Link>
               </StyledLink>
